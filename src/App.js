@@ -1,10 +1,10 @@
 import React from 'react';
-import Jumbotron from './components/jumbotron';
+import { JumbotronContainer } from './containers/jumbotron';
+import { FooterContainer } from './containers/footer';
+import { FaqContainer } from './containers/accordion';
 
-function App() {
-  return (
-    <Jumbotron />
-        );
+
+
+export default function App(){
+ return <><JumbotronContainer/><FaqContainer/><FooterContainer/></>;
 }
-
-export default App;
