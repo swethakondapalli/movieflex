@@ -13,14 +13,15 @@ export default function Home()
       <HeaderContainer>  
       <Feature>
         <Feature.Title> Unlimited films, TV programs and more.</Feature.Title>
-        <Feature.SubTitle> Watch anywhere, Cancel at any time.</Feature.SubTitle>
+        <Feature.SubTitle> Watch anywhere, Cancel at any time.</Feature.SubTitle>         
         <OptForm>
         <OptForm.Input placeholder="Email address" />
         <OptForm.Button> Try it now </OptForm.Button>
+        <OptForm.Break/>
         <OptForm.Text>Ready to watch? Enter yur email to create or restart your membership
         </OptForm.Text>
-        </OptForm>
-      </Feature>       
+        </OptForm>    
+        </Feature>        
         </HeaderContainer>  
        <JumbotronContainer />
        <FaqContainer />

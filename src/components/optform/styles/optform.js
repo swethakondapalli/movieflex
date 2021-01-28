@@ -6,8 +6,9 @@ export const Container = styled.div`
   height: 100%;
   margin-top: 20px;
   flex-wrap: wrap;
+ 
 
-  @media (max-width: 1000px) {
+  @media (max-width: 1200px) {
     flex-direction: column;
     align-items: center;
   }
@@ -45,7 +46,7 @@ export const Button = styled.button`
     filter: brightness(0) invert(1);
     width: 24px;
 
-    @media (max-width: 1000px) {
+    @media (max-width: 1200px) {
       width: 16px;
     }
   }
@@ -54,7 +55,7 @@ export const Button = styled.button`
     background: #f40612;
   }
 
-  @media (max-width: 1000px) {
+  @media (max-width: 1200px) {
     height: 50px;
     font-size: 16px;
     margin-top: 20px;
@@ -67,7 +68,7 @@ export const Text = styled.p`
   color: white;
   text-align: center;
 
-  @media (max-width: 600px) {
+  @media (max-width: 1200px) {
     font-size: 16px;
     line-height: 22px;
   }
